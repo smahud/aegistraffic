@@ -1,0 +1,28 @@
+{
+  "name": "aegistraffic",
+  "version": "0.1.0",
+  "description": "Ad Fraud Detection & Traffic Analytics Platform",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smahud/aegistraffic.git"
+  },
+  "author": "smahud",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smahud/aegistraffic/issues"
+  },
+  "homepage": "https://github.com/smahud/aegistraffic#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
